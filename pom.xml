@@ -157,6 +157,9 @@ LICENSE file.
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
+          <fork>true</fork>
+          <meminitial>512m</meminitial>
+          <maxmem>1048m</maxmem>
         </configuration>
       </plugin>
       <plugin>
@@ -174,6 +177,11 @@ LICENSE file.
             </configuration>
           </execution>
         </executions>
+         <configuration>
+          <fork>true</fork>
+          <meminitial>512m</meminitial>
+          <maxmem>1048m</maxmem>
+        </configuration>
       </plugin>
     </plugins>
   </build>
