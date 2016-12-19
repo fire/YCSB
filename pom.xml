@@ -133,6 +133,7 @@ LICENSE file.
     <module>redis</module>
     <module>riak</module>
     <module>s3</module>
+    <module>snappystore</module>
     <module>solr</module>
     <module>tarantool</module>
     <!--<module>voldemort</module>-->
